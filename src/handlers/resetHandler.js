@@ -1,10 +1,7 @@
 import data from '../data.js';
 import dom from '../dom.js';
 import updateTimeComponent from '../components/updateTimeUnits.js';
-
-/**
- * Resets the timer and updates the time components in the DOM.
- */
+ // Resets the timer and updates the time components in the DOM.
 const resetHandler = () => {
     if (data.intervalId) {
         clearInterval(data.intervalId);
