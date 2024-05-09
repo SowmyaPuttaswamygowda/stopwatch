@@ -1,11 +1,6 @@
 import formatTimeUnit from '../utils/formatTimeUnit.js';
 import formatMilliseconds from '../utils/formatMilliseconds.js';
 
-/**
- * Updates the time components in the DOM.
- *
- * @param {object} time - The time object containing milliseconds, seconds, minutes, and oldSeconds properties.
- */
 const updateTimeComponent = (timeDom, time) => {
     // update milliseconds
     timeDom.querySelector('.milliseconds').innerHTML = formatMilliseconds(
